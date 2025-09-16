@@ -1,0 +1,237 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ocr-container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem 2.5rem 2rem 2.5rem;
+}
+
+.ocr-container h2 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+.ocr-container form {
+  margin-bottom: 1.5rem;
+}
+
+/* Login/Signup Form Styles */
+.ocr-container .auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.ocr-container .auth-form .input-block {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: border 0.2s;
+  display: block;
+  box-sizing: border-box;
+}
+
+.ocr-container .auth-form .input-block:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+.ocr-container .auth-form button {
+  width: 100%;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+}
+
+.ocr-container .auth-form button:hover {
+  background: #1d4ed8;
+}
+
+.ocr-container input[type="text"],
+.ocr-container input[type="password"],
+.ocr-container input[type="file"],
+.ocr-container input[name="username"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: border 0.2s;
+}
+
+.ocr-container input[type="text"]:focus,
+.ocr-container input[type="password"]:focus,
+.ocr-container input[name="username"]:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+.ocr-container button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  transition: background 0.2s;
+  line-height: 1.5;
+  box-sizing: border-box;
+  height: auto;
+  min-height: auto;
+}
+
+/* Regular-sized action buttons with colors */
+.ocr-container button.btn-copy {
+  background: #007bff !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-download {
+  background: #f45fea !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-edit {
+  background: #ffc107 !important;
+  color: black !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-delete {
+  background: #dc3545 !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-load {
+  background: #28a745 !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-save {
+  background: #1da13c !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button.btn-cancel {
+  background: #ac3b3b !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+.ocr-container button:hover {
+  background: #1d4ed8;
+}
+
+.ocr-container textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ocr-container .message {
+  margin-top: 1rem;
+  color: #2563eb;
+  text-align: center;
+}
+
+.ocr-container .input-block {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f9fafb;
+  transition: border 0.2s;
+  display: block;
+}
+.ocr-container .input-block:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+  background: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ocr-container {
+    width: 98%;
+    padding: 1rem 1.5rem;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .ocr-container {
+    max-width: 1400px;
+  }
+}
+
+.ocr-container button.btn-manage-folders {
+  background: #17a2b8 !important;
+  padding: 0.6rem 1.2rem !important;
+  font-size: 1rem !important;
+  border-radius: 5px !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+@media (min-width: 1600px) {
+  .ocr-container {
+    max-width: 1600px;
+  }
+}

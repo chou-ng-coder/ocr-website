@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-jose[cryptography]
+passlib[bcrypt]
+pillow
+pytesseract
+python-multipart
+reportlab
+slowapi
+redis
+pydantic
+pydantic-settings
