@@ -6,15 +6,15 @@ Vietnamese + English OCR web application with document management, folder organi
 - Multi-language OCR (Tesseract: `vie` + `eng`)
 - JWT authentication with bcrypt
 - Document & folder management
-- Full-text search (filename & content)
-- Analytics dashboard (users & docs stats)
-- Export results (PDF/CSV)
+- Full-text search
+- Analytics dashboard
+- Export results (TXT/PDF/CSV)
 - Rate limiting & logging
 
 ## 🏗️ Tech Stack
 - **Backend**: FastAPI (Python 3.8+), MySQL 8.0, SQLAlchemy ORM  
 - **Frontend**: React 18  
-- **OCR Engine**: Tesseract + Pillow  
+- **OCR Engine**: Tesseract
 - **Auth**: JWT tokens  
 - **Infra**: Docker + Docker Compose  
 
@@ -49,4 +49,5 @@ docker-compose up --build
 - Password hashing (bcrypt)
 - JWT-based authentication
 - File upload validation & size limits
+
 - SQL injection prevention via SQLAlchemy
