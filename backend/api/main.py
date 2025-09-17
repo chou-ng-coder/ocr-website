@@ -184,8 +184,6 @@ async def upload_image(
     current_user: User = Depends(get_current_user)
 ):
     """Upload image for OCR processing with Vietnamese language support"""
-    if rate_limiting_available and limiter:
-        await limiter.check_rate_limit(f"{settings.rate_limit_per_minute}/minute", request)
     
     logger.info(f"OCR request from user {current_user.username} for file: {file.filename}")
     
@@ -773,3 +771,4 @@ def delete_folder(folder_id: int, db=Depends(get_db), current_user: User = Depen
         "id": folder_id,
         "documents_moved": documents_in_folder
     }
+
