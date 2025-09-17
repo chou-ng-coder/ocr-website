@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     # Application
     app_name: str = "OCR Document Processing API"
     app_version: str = "1.0.0"
-    debug: bool = False
+    debug: bool = True
     
     # Logging
     log_level: str = "INFO"
@@ -31,4 +31,5 @@ class Settings(BaseSettings):
         env_file_encoding = "utf-8"
 
 # Global settings instance
+
 settings = Settings()
